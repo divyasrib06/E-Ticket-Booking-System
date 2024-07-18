@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-seriff;
+}
+/*index css*/
+.wrapper{
+    width: 1170px;
+    margin:auto;
+}
+header{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url("https://wallpaperaccess.com/full/2337801.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position:relative;
+}
+.nav-area{
+    float:right;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-area li{
+    display:inline-block;
+}
+.nav-area li a{
+    font-style: underline;
+    color:yellow;
+    text-decoration: none;
+    padding:5px 20px;
+    font-family:poppins;
+    font-size:27px;
+}
+.nav-area li a:hover{
+    background:lightgray;
+    color:black;
+}
+.logo img{
+    width:300px;
+    float:left;
+    height:175px;
+}
+.welcome-text{
+    position:absolute;
+    width:600px;
+    height:275px;
+    margin:20% 30%;
+    text-align:center;
+}
+.welcome-text h1{
+    text-align:center;
+    background: linear-gradient(
+            to right, #f32f21,
+             #daf108);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    font-size:65px;
+}
+.welcome-text a{
+    border:1 px solid white;
+    padding:10px 25px;
+    text-decoration:none;
+    font-size:30px;
+    margin-top:20px;
+    display:inline-block;
+    color:brown;
+    background-color: bisque;
+}
+.welcome-text a:hover{
+    background:red;
+    color:white;
+}
+footer{
+    background-color: rgb(42, 34, 34);
+    color: white;
+    padding: 50px;
+}
+footer a{
+    color: white;
+}
+/*register css*/
+/*
+.register-page{
+    display:flexbox;
+    width: 600px;;
+    top:5%;
+    left:35%;
+    position:absolute;
+    color:lightgrey;
+}
+.register-page h1{
+    font-size:60px;
+    text-align:center;
+    margin:17px 15px;
+    color:white;
+}
+.register-page p{
+    font-size:40px;
+    color:whitesmoke;
+    margin:20px 18px;
+    font-family:'Arial Narrow Bold';
+}
+.register-page input{
+    font-size:30px;
+    width:100%;
+    padding: 20px 18px;
+    border: 0;
+    outline:none;
+    border-radius: 5px;
+}
+.register-page button{
+    font-size:18px;
+    padding:15px 15px;
+    width:40%;
+    color:brown;
+    font-family:sans-serif;
+}
+.register-page button:hover{
+    background:red;
+    color:white;
+}*/

@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-seriff;
+}
+.wrapper{
+    width: 1170px;
+    margin:auto;
+}
+header{
+    background-color:lightblue;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position:relative;
+}
+.nav-area{
+    float:right;
+    list-style: none;
+    margin-top: 30px;
+}
+.nav-area li{
+    display:inline-block;
+}
+.nav-area li a{
+    font-style: underline;
+    color:black;
+    text-decoration: none;
+    padding:5px 20px;
+    font-family:poppins;
+    font-size:35px;
+}
+.nav-area li a:hover{
+    background:lightgray;
+    color:black;
+}
+.logo img{
+    width:250px;
+    float:left;
+    height:175px;
+}
+.contact-form{
+max-width:350px;
+margin:auto;
+border-radius:5px;
+background:#96bb72;
+padding:20px;
+}
+input[type=text],select
+{
+width:100%;
+padding:12px 20px;
+margin:8px 0;
+display:inline-block;
+border:1px solid  ;
+border-radius : 4px;
+box-sizing:border-box;
+}
+input[type=submit]
+{
+width:100%;
+background:purple;
+color:white;
+padding:14px 20px;
+margin:8px 0;
+border:none;
+border-radius:4px;
+cursor:pointer;
+}
+input[type=submit]:hover
+{
+background:gray;
+}
+
+input[type=number]{
+    padding: 5px;
+}
+#section1{
+    background-color: lightblue;
+    text-align: center;
+    color: blue;
+    height:600px;
+    display:inline-block;
+    width:100%;
+}
+#section2{
+    background-color: lightblue;
+    text-align: center;
+    color: blue;
+    height:600px;
+    display:inline-block;
+    width:100%;
+}
+#section3{
+    background-color: lightblue;
+    text-align: center;
+    color: blue;
+    height:600px;
+    display:inline-block;
+    width:100%;
+}
+#section4{
+    background-color: lightblue;
+    text-align: center;
+    color: blue;
+    height:600px;
+    display:inline-block;
+    width:100%;
+}
